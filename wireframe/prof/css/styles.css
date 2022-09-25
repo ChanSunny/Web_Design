@@ -1,0 +1,137 @@
+#sleeve{
+	position : fixed;
+	top : 25%;
+	right : 0px;
+	width:  60px;
+	height : 200px;
+	background :rgba(0,0,0,.5);
+	border-top-left-radius : 20px;
+	border-bottom-left-radius : 20px;
+}
+
+#wrap{
+	border : solid 1px black;
+	width : 1024px;
+	min-height : 100vh;
+
+	margin : 0 auto; /*centering the box*/
+}
+
+#topbar{
+	border : solid 1px black;
+	height : 65px;
+	display : flex;
+}
+
+#logo{
+	border : solid 1px black;
+	flex-grow:  1;
+}
+
+#search{
+	border : solid 1px black;
+	flex-grow:  3;
+}
+
+nav{
+	border : solid 1px black;
+	flex-grow:  1;
+
+	display : flex;
+
+}
+
+nav ul{
+	border : solid 1px blue;
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+
+	width : 100%;
+
+	display : flex;
+	justify-content: space-around;
+	align-items : center;
+}
+
+nav ul li{
+	border : solid 1px red;
+
+	width : 30px;
+	height : 30px;
+
+}
+
+#main{
+	border : solid 0px black;
+	min-height : 600px;
+
+	display : flex;
+	flex-direction : row;
+}
+
+#feed{
+	border : solid 0px black;
+	min-width : 70%;
+	max-width : 70%;
+	width : 70%;
+}
+
+.post{
+	border : solid 1px black;
+	min-height : 500px;
+	margin : 20px;
+}
+
+.post_image{
+	border : solid 1px black;
+	height : 400px;
+
+	position : relative;
+}
+
+.post_author{
+	border : solid 1px black;
+	background : black;
+	width : 60px;
+	height : 60px;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
+
+.post_actions{
+	border : solid 1px black;
+	min-height : 100px;
+	position : relative;
+}
+
+.post_utilities{
+	border : solid 1px black;
+	height : 60px;
+	width : 50%;
+}
+
+.post_save{
+	border : solid 1px black;
+	height : 60px;
+	width : 60px;
+	background : black;
+
+	position : absolute;
+	right : 0px;
+	top : 0px;
+}
+
+.post_caption{
+	border : solid 1px black;
+	height : 80px;
+}
+
+
+#suggestions{
+	border : solid 1px black;
+	min-width : 30%;
+	max-width : 30%;
+	width : 30%;
+}
